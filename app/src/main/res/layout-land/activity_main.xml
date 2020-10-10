@@ -4,28 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".MainActivity"
     android:padding="8dp"
     android:gravity="center">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hello"
-            android:textSize="25sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/negara"
-            android:textSize="25sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/bahasa"
-            android:textSize="25sp"/>
 
     <ImageView
         android:layout_marginTop="8dp"
@@ -33,5 +15,35 @@
         android:layout_height="wrap_content"
         android:src="@mipmap/country_flag"
         />
+
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/negara"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bahasa"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
 
 </LinearLayout>

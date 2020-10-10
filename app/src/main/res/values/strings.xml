@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Pertemuan_1_PMO2</string>
-    <string name="hello">Hello World!</string>
-    <string name="negara">I am American</string>
-    <string name="bahasa">I am  Speak English</string>
-
+    <string name="hello">Hallo Dunia!</string>
+    <string name="negara">Saya Orang Indonesia</string>
+    <string name="bahasa">Saya Berbahasa Indonesia</string>
 
 </resources>
